@@ -1,6 +1,34 @@
 
+*{
+    margin: 0%;
+    padding: 0%;
+    background-color:rgba(227, 191, 238, 0.56) ;
+}
 h1 {
     letter-spacing: 1rem;
-    background-color: rgba(137, 43, 226, 0.355);
-    width: fit-content;
-    }
+
+    text-align: center;
+    padding: 20px;
+    /* width: fit-content; */
+}
+
+main{
+    background-image: url(/img/Download\ premium\ image\ of\ Young\ woman\ applying\ serum\ on\ her\ face\ \ by\ McKinsey\ \ about\ skincare\,\ beauty\,\ skin\,\ aesthetic\,\ and\ cosmetic\ 2321563.jfif);
+    height: 100vh;
+    width: unset;
+    
+}
+
+
+.navbaritems{
+    text-align: right;
+    padding: 20px;
+   
+}
+
+
+.navitem{
+    text-decoration: none;
+    margin-left: 20px;
+
+}
