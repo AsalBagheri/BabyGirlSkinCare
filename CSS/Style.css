@@ -2,21 +2,19 @@
 *{
     margin: 0%;
     padding: 0%;
-    background-color:rgba(227, 191, 238, 0.56) ;
+    background-color:rgba(227, 191, 238, 0.341) ;
 }
+
 h1 {
     letter-spacing: 1rem;
-
+    
     text-align: center;
     padding: 20px;
-    /* width: fit-content; */
 }
 
 main{
-    background-image: url(/img/Download\ premium\ image\ of\ Young\ woman\ applying\ serum\ on\ her\ face\ \ by\ McKinsey\ \ about\ skincare\,\ beauty\,\ skin\,\ aesthetic\,\ and\ cosmetic\ 2321563.jfif);
-    height: 100vh;
-    width: unset;
-    
+    background-image: url("/img/Skincare.jpg");
+    width: 100%;
 }
 
 
@@ -31,4 +29,73 @@ main{
     text-decoration: none;
     margin-left: 20px;
 
+}
+
+
+.list {
+    display: flex;
+    justify-items: first baseline;
+}
+
+
+.explanation {
+    width: 50%;
+    height: 50px;
+    border: 2px solid rgb(162, 0, 255);
+    padding: 20px;
+    text-align: left;
+    margin-top: 25px;
+    border-radius: 10px;
+
+}
+
+.box {
+    width: 300px;
+    height: 400px;
+    background-color: hsl(188, 100%, 82%);
+    text-align: center;
+    margin: 20px;
+    font-size: 20px;
+}
+
+.Products {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+img {
+    width: 210px;
+    height: 150px;
+    padding-top: 30px;
+}
+
+.link {
+    margin-top: 150px;
+}
+
+.link {
+    margin-top: 150px;
+}
+
+.link a {
+    background-color: #f5f500;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 10px;
+}
+
+@media (max-width: 768px) {
+    nav {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav a {
+        padding: 10px 10px;
+        width: 200px;
+    }
 }
